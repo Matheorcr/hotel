@@ -1,0 +1,105 @@
+/* Initialisation du CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Home */
+
+#home {
+    position: relative;
+    top: -1vh;
+    height: 100vh;
+    width: 100vw;
+    background: url(./Images/home1.jpg) no-repeat;
+    background-size:cover;
+}
+
+#home .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    top : 0;
+    left: 0;
+    margin-left: 4vw;
+    margin-top: 0vh;
+    scale: 0.35;
+}
+
+#bouton {
+    position: absolute;
+    top: 4vh;
+    right: 10%;
+    margin-right: 1vw;
+    color: white;
+    font-size: 0.9em;
+    font-family: 'Roboto Slab', serif;
+}
+
+#bouton a {
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+}
+
+#home .H{
+    position: relative;
+    text-align: center;
+    top: 8vh;
+    left: 3vw;
+    color: #333;
+    margin-top: 1vh;
+    font-size: 2.1em;
+}
+
+#home .H h1 {
+    position: absolute;
+    left: 15vw;
+    color: white;
+    opacity: 0.2;
+    font-size: 11em;
+    font-family: "Roboto Slab", serif;
+}
+
+#home .HI{
+    position: relative;
+    text-align: center;
+    margin-top: 1vh;
+    top : 30vh;
+    left : -15vw;
+    color: white;
+    opacity: 0.9;
+    font-size: 4em;
+    font-family: "Roboto Slab", serif;
+    font-weight: 0;
+}
+
+#home .Texte p{
+    position : absolute;
+    top : 48vh;
+    left : 21vw;
+    color: white;
+    font-size: 0.85em;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: justify;
+}
